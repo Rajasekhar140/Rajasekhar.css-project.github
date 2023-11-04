@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up</title>
+    <style>
+        label{
+            color: #9A1663;
+        }
+    </style>
+</head>
+<body bgcolor="#40DAB2">
+    <center>
+        <h1 style="color: blue;">Sign-up</h1>
+    <form action="">
+        <fieldset>
+        <label for="fname">First name :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="fname" placeholder="enter your First name" required><br><br>
+        <label for="lname">Last name :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="lname" placeholder="enter your Last name" required><br><br>
+        <label for="email">Email id :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="email" id="email" placeholder="enter your Email id" required><br><br>
+        <label for="phone number">Ph number:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="phonenumber" placeholder="enter your ph number" pattern="[6-9]{1}[0-9]{9}" required><br><br>
+        <label for="password">Create password:</label></th>
+        <input type="password" id="password" placeholder="enter your password" pattern="[A-Za-z]{3-15}[0-9]{1-5}"  required><br><br>
+        <input type="submit" name="submit">
+    </fieldset>
+    <h3 style="color: red;">Already have an account: <a style="color: blue;" href="login_css.html">login</a></h3>
+    </center>
+    </form>
+</body>
+</html>
